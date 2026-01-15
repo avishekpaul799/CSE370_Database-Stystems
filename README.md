@@ -55,20 +55,58 @@ The system is built using **PHP, MySQL, HTML, CSS, and JavaScript**, focusing on
 
 ## 🗂️ Project Structure
 
-Healthcare-main/
-connect.php  
-doctor_join.php  
-doctor_loginscript.php  
-patient_entry.php  
-patient_loginscript.php  
-appointmentscript.php  
-payment.php  
-logout.php  
-adminlog.php  
-javascript  
-css  
-images  
-README.md  
+Healthcare/
+│
+├── admin_appointments.php
+├── adminpage.php
+├── change_hospitals.php
+├── change_tests.php
+├── check_doctor_appointments.php
+├── check_patient_appointments.php
+├── credits.php
+├── doctor_details.php
+├── sign_up.php
+│
+├── assets/
+│   ├── 26363.png
+│   ├── 5230819.jpg
+│   ├── artboard_1_9X7_icon.ico
+│   ├── hospimg.jpg
+│   └── v870-tang-36.jpg
+│
+├── forms/
+│   ├── add_doctor.php
+│   ├── add_hospital.php
+│   ├── add_test.php
+│   └── appointment_form.php
+│
+├── includes/
+│   ├── config.php
+│   ├── db_connect.php
+│   └── session.php
+│
+├── scripts/
+│   ├── admin.js
+│   ├── appointment.js
+│   └── update_contact.js
+│
+├── styles/
+│   ├── admin_table.css
+│   ├── credits.css
+│   ├── details.css
+│   ├── docdet.css
+│   ├── doctor_search.css
+│   ├── forms.css
+│   ├── home.css
+│   ├── hospital_list.css
+│   ├── login.css
+│   ├── main_style.css
+│   ├── payment.css
+│   ├── select.css
+│   └── table.css
+│
+└── README.md
+
 
 ---
 
