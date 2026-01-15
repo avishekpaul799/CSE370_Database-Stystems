@@ -65,9 +65,9 @@ appointmentscript.php
 payment.php  
 logout.php  
 adminlog.php  
-javascript/  
-css/  
-images/  
+javascript  
+css  
+images  
 README.md  
 
 ---
