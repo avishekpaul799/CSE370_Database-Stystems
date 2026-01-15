@@ -55,6 +55,7 @@ The system is built using **PHP, MySQL, HTML, CSS, and JavaScript**, focusing on
 
 ## 🗂️ Project Structure
 
+```
 Healthcare/
 │
 ├── admin_appointments.php
@@ -106,7 +107,7 @@ Healthcare/
 │   └── table.css
 │
 └── README.md
-
+```
 
 ---
 
