@@ -1,0 +1,21 @@
+.hospitals-list, .doc-list {
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.hospital-box, .doc-box {
+    border: 2px solid;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.container main {
+    padding-bottom: 100px;
+}

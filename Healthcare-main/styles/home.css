@@ -1,0 +1,46 @@
+.home-page {
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.image-holder {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+}
+.greet {
+    width: 40%;
+    flex: 1;
+}
+.greet button {
+    background-color: aquamarine;
+    padding: 2rem;
+    border: none;
+    transition: background-color 0.5s ease, box-shadow 0.5s ease;
+    font-size: 1rem;
+    user-select: none;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 100px;
+}
+.greet button:hover {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.greet button:active {
+    background-color: rgba(97, 97, 97, 0.482);
+}
+.image {
+    width: 50%;
+    max-height: 100%;
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+}
+.button-container a {
+    margin-bottom: 30px;
+    width: 300px;
+    height: 100px;
+}
